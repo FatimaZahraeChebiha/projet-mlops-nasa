@@ -1,1 +1,5 @@
+# Le script de demarrage du conteneur doit garder des fins de ligne Unix
+*.sh text eol=lf
+# Le lanceur Windows doit garder des fins de ligne Windows
+*.bat text eol=crlf
 *.html linguist-detectable=false
